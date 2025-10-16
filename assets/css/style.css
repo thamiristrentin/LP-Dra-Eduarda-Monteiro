@@ -1,0 +1,359 @@
+/*-------------HERO-SECTION------------*/
+
+#hero-section {
+    width: 100%;
+
+}
+
+.hero-section {
+    background-image: url("../img/banner.jpg"), url("../img/banner-texture.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    background-position: right, left;
+}
+
+#hero-section menu ul {
+    display: flex;
+    gap: 1.88rem;
+    list-style: none;
+    font: 1.69rem "InriaSerif-Regular", sans-serif;
+    color: var(--Licorice);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--Licorice);
+}
+
+header a:hover {
+    text-decoration: none;
+    font-family: "InriaSerif-Bold";
+    
+}
+
+#hero-section header {
+    margin: 0 auto;
+    max-width: fit-content;
+    padding-top: 3.63rem;
+}
+
+.faixa-menu {
+    background-color: var(--Licorice);
+    margin-top: 0.81rem;
+    height: 0.13rem;
+}
+
+.text-hero-section p#cro {
+    color: var(--Licorice);
+    font: 1.69rem "InriaSerif-Light", sans-serif;
+}
+
+.text-hero-section p#identificacao {
+    color: var(--Branco);
+    font: 1.69rem "JuliusSansOne-Regular", sans-serif;
+    padding-top: 1.31rem;
+}
+
+.text-hero-section p#identificacao img {
+    width: 5.94rem;
+    height: auto;
+    padding-right: 1.06rem;
+}
+
+.text-hero-section {
+    padding: 5.63rem 0 6.5rem 17.38rem;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--Licorice);
+}
+
+.text-hero-section h1 {
+    font: 3.31rem "InriaSerif-Bold", sans-serif;
+    padding-top: 2.19rem;
+}
+
+.text-hero-section h2 {
+    font: 1.69rem "InriaSerif-Light", sans-serif;
+    padding-top: 1rem;
+}
+
+button {
+    padding: 1.25rem 1.44rem;
+    font: 1.69rem "JuliusSansOne-Regular", sans-serif;
+    background-color: var(--Licorice);
+    color: var(--Branco);
+    border-style: none;
+    border-radius: 0.94rem;
+    box-shadow: 5px 6px 9.5px 0 #0000003b;
+    margin-top: 2.25rem;
+    cursor: pointer;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: translate(1px, -1px);
+}
+
+
+.faixa-banner {
+    background-color: var(--Licorice);
+    height: 0.63rem;
+}
+
+/*-------------PROCEDIMENTOS-SECTION------------*/
+
+#procedimentos-section {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#procedimentos-section h1 {
+    font: 2.69rem "InriaSerif-Bold", sans-serif;
+    color: var(--Licorice);
+    text-align: center;
+    padding-top: 5.44rem;
+}
+
+.procedimentos {
+    padding-top: 4.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.69rem;
+}
+
+.procedimentos img {
+    border-radius: 0 4.06rem 0 4.06rem;
+}
+
+.procedimentos h2 {
+    font: 3.06rem "InriaSerif-Bold", sans-serif;
+    color: var(--Licorice);
+}
+
+.procedimentos p {
+    font: 1.63rem "InriaSerif-Light", sans-serif;
+    color: var(--Licorice);
+    padding-top: 2.56rem;
+}
+
+.procedimento {
+    background-color: #DFCFCA;
+    border-radius: 1.25rem 1.25rem 1.25rem 4.06rem;
+    width: 78.06rem;
+    min-height: 23.38rem;
+    display: flex;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.procedimento:hover {
+    transform: translateY(-5px);
+}
+
+.text-procedimento {
+    padding: 3.69rem 5.38rem;
+}
+
+.procedimento-um, .procedimento-tres {
+    margin-right: 5.88rem;
+}
+
+.procedimento-dois {
+    margin-left: 5.88rem;
+}
+
+.cta-procedimentos {
+    font: 3.06rem "InriaSerif-Bold", sans-serif;
+    text-align: center;
+    padding-top: 7.69rem;
+}
+
+/*-------------ABOUT-SECTION------------*/
+
+#about-section {
+    overflow: hidden;
+}
+
+#about-section h1 {
+    font: 2.69rem "InriaSerif-Bold", sans-serif;
+    color: var(--Licorice);
+    text-align: center;
+    padding: 10.94rem 0 2.31rem 0;
+}
+
+.about-section {
+    background-color: var(--Cinereous);
+    width: 100%;
+    padding: 6.44rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.about-section p {
+    font: 1.88rem "InriaSerif-Regular", sans-serif;
+    color: var(--Branco);
+    max-width: 64.63rem;
+}
+
+.about-section img {
+    border-radius: 15rem;
+    margin: -9rem 0;
+    max-width: 28.75rem;
+    max-height: 28.75rem;
+}
+
+/*-------------AVALIAÇÃO-SECTION------------*/
+
+.cards-avaliacoes {
+    display: flex;
+    justify-content: center;
+    gap: 4.81rem;
+    padding-top: 12.63rem;
+}
+
+.card {
+    background-color: var(--Licorice);
+    color: var(--Branco);
+    flex-basis: 18rem;
+    border-radius: 1.56rem;
+    padding: 4.19rem 3.69rem 4rem 3.69rem;
+}
+
+.card h1 {
+    font: 1.7rem "InriaSerif-Regular", sans-serif;
+    text-align: center;
+}
+
+.card p {
+    font: 1.4rem "InriaSerif-Regular", sans-serif;
+    padding-top: 1.75rem;
+}
+
+.card p#nome-avaliacao {
+    font: 1.56rem "InriaSerif-Bold", sans-serif;
+    padding-top: 1.56rem;
+}
+
+/*-------------LOCATION-SECTION------------*/
+#location-section {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 15.38rem;
+}
+
+.location-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8.63rem;
+}
+
+.mapa iframe {
+    border: 10px solid var(--Licorice);
+}
+
+.mapa p {
+    text-align: center;
+    color: var(--Licorice);
+    font: 1.31rem "InriaSerif-Bold", sans-serif;
+    padding-top: 1.75rem;
+}
+
+.infos {
+    font: 1.63rem "InriaSerif-Bold", sans-serif;
+    color: var(--Licorice);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.infos p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.botoes-infos {
+    display: flex;
+    align-items: center;
+    gap: 0.88rem;
+    padding: 2.81rem 0;
+}
+
+button#btn-infos {
+    margin: 0;
+}
+
+.button-wpp, .button-insta {
+    background-color: var(--Licorice);
+    box-shadow: 5px 6px 9.5px 0 #0000003b;
+    width: 4.63rem;
+    height: 4.63rem;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.button-wpp:hover, .button-insta:hover {
+    transform: translate(1px, -1px);
+}
+
+.button-wpp img, .button-insta img {
+    max-width: 100%;
+}
+
+/*-------------FOOTER------------*/
+
+footer {
+    background-color: var(--Licorice);
+    margin-top: 10.38rem;
+}
+
+.wrap-footer {
+    max-width: 1920px;
+    margin: 0 auto;
+    color: var(--Branco);
+    font: 1.31rem "InriaSerif-Light", sans-serif;
+    padding: 4.44rem 0 1rem 12.13rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.81rem;
+}
+
+.wrap-footer p {
+    display: flex;
+    align-items: center;
+    gap: 1.06rem;
+}
+
+p#slogan {
+    font: 1.56rem "JuliusSansOne-Regular", sans-serif;
+    color: var(--Branco);
+    text-align: center;
+    padding-top: 3rem;
+}
+
+p#copy {
+    font: 1rem "JuliusSansOne-Regular", sans-serif;
+    color: var(--Branco);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.signature {
+    text-align: center;
+    padding-top: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Dra. Eduarda Monteiro",
+    "image": "https://seudominio.com/imagens/capa-site.jpg", /* ALTERAR DOMÍNIO */
+    "url": "https://seudominio.com", /* ALTERAR DOMÍNIO */
+    "telephone": "+55 81 98421-1010",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Fernando Simões Barbosa, 558 - Boa Viagem",
+        "addressLocality": "Recife",
+        "addressRegion": "PE",
+        "postalCode": "51021-060",
+        "addressCountry": "BR"
+    },
+    "priceRange": "$$",
+    "description": "Especialista em transformar sorrisos com excelência. Mais de 2.000 sorrisos renovados com técnicas modernas e atendimento humanizado.",
+    "openingHours": "Mo-Fr 09:00-18:00",
+    "sameAs": [
+        "https://www.instagram.com/draeduardamonteiro/"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "3"
+    },
+    "review": [
+        {
+        "@type": "Review",
+        "author": "Maria Fernanda",
+        "reviewBody": "Ambiente sempre limpo e climatizado. Fácil acesso ao consultório e sem falar no atendimento incrível da Dra. Eduarda Monteiro. Indico demais. Parabéns!!!!!",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
+        },
+        {
+        "@type": "Review",
+        "author": "Priscila Cristyne",
+        "reviewBody": "Ao conhecer a clínica com meu esposo, foi uma experiência incrível ambiente maravilhoso, com profissionais qualificadas.",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
+        },
+        {
+        "@type": "Review",
+        "author": "Maria Bárbara",
+        "reviewBody": "Lugar aconchegante, e Dra. Eduarda sempre muito atenciosa e tem o tratamento humanizado.",
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" }
+        }
+    ]
+}

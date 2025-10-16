@@ -1,0 +1,1103 @@
+@media (max-width: 575.98px) {
+    /*-------------HERO-SECTION------------*/
+
+    .hero-section {
+        background-image: url("../img/banner-700px.jpg");
+        background-position: top;
+        background-size: cover;
+    }
+
+    #hero-section menu ul {
+        gap: 1rem;
+        font-size: 1rem;
+    }
+
+    .text-hero-section {
+        padding: 35rem 0 1.88rem 0;
+        max-width: 570px;
+        margin: 0 auto;
+        
+    }
+
+    .wrap-wrap-text-hero {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-hero-section p#identificacao img {
+        width: 5rem;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .text-hero-section p#cro {
+        font-size: 1.2rem;
+        padding-left: 0;
+        padding-top: 0.7rem;
+    }
+
+    .text-hero-section p#identificacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        padding-top: 1.8rem;
+    }
+
+    .text-hero-section h1 {
+        font-size: 2rem;
+        padding-left: 0;
+    }
+
+    .text-hero-section h2 {
+        font-size: 1rem;
+        padding-left: 0;
+    }
+
+
+    .text-hero-section button {
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .wrap-button {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+
+    /*-------------PROCEDIMENTOS-SECTION------------*/
+
+    #procedimentos-section {
+        max-width: 580px;
+    }
+
+    #procedimentos-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .procedimentos {
+        gap: 5rem;
+    }
+
+    .procedimentos img {
+        border-radius: 1rem;
+    }
+
+    .procedimento {
+        width: 25rem;
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+    }
+
+    .procedimento h2 {
+        font-size: 1.5rem;
+    }
+
+    .procedimento p {
+        font-size: 0.95rem;
+        padding-top: 1rem;
+    }
+
+    .text-procedimento {
+        padding: 2rem 1.9rem;
+    }
+
+    .wrap-img-procedimento img {
+        width: 25rem;
+        height: auto;
+    }
+
+    .procedimento-um, .procedimento-dois, .procedimento-tres {
+        margin: 0;
+    }
+
+    .procedimento-um img {
+        content: url("../img/procedimento-um-mobile.jpg");
+    }
+
+    .procedimento-dois img {
+        content: url("../img/procedimento-dois-mobile.jpg");
+    }
+
+    .procedimento-tres img {
+        content: url("../img/procedimento-tres-mobile.jpg");
+    }
+
+    .cta-procedimentos {
+        font-size: 1.4rem;
+    }
+
+    .cta-procedimentos button {
+        font-size: 1.2rem;
+    }
+    
+
+    /*-------------ABOUT-SECTION------------*/
+
+    #about-section h1 {
+        font-size: 1.7rem;
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+    }
+
+    .about-section {
+        padding: 4rem 0;
+        gap: 1.3rem;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+        max-width: 27rem;
+    }
+
+    .about-section img {
+        max-width: 18rem;
+        max-height: 18rem;
+        margin: 0;
+        margin-top: -8rem;
+    }
+
+    /*-------------AVALIAÇÃO-SECTION------------*/
+
+    .cards-avaliacoes {
+        gap: 2rem;
+        padding-top: 7rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 15rem;
+    }
+
+    /*-------------LOCATION-SECTION------------*/
+
+    #location-section {
+        max-width: 570px;
+        padding-top: 8rem;
+    }
+
+    .location-section {
+        gap: 4rem;
+    }
+
+    .mapa iframe {
+        width: 25rem;
+        height: 18rem;
+    }
+
+    .mapa p {
+        padding-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .infos {
+        font-size: 1.2rem;
+        
+    }
+
+    button#btn-infos {
+        font-size: 1rem;
+    }   
+
+    .button-wpp, .button-insta {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+
+    .button-wpp img, .button-insta img {
+        max-width: 40%;
+    }
+    
+
+    .infos img {
+        max-width: 1.7rem;
+    }
+
+    .botoes-infos {
+        padding: 2rem 0;
+    }
+
+    /*-------------FOOTER------------*/
+
+    .wrap-footer {
+        padding: 4rem 0.5rem 1rem 1rem;
+        font-size: 1rem;
+    }
+
+    p#slogan {
+        font-size: 1.1rem;
+    }
+
+    p#copy {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*-------------HERO-SECTION------------*/
+
+    .hero-section {
+        background-image: url("../img/banner-700px.jpg");
+        background-position: top;
+        background-size: cover;
+    }
+
+    #hero-section menu ul {
+        gap: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .text-hero-section {
+        padding: 35rem 0 1.88rem 0;
+        max-width: 770px;
+        margin: 0 auto;
+        
+    }
+
+    .wrap-wrap-text-hero {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-hero-section p#identificacao img {
+        width: 5rem;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .text-hero-section p#cro {
+        font-size: 1.2rem;
+        padding-left: 0;
+        padding-top: 0.7rem;
+    }
+
+    .text-hero-section p#identificacao {
+        display: flex;
+        gap: 0.8rem;
+        padding-top: 1.8rem;
+    }
+
+    .text-hero-section h1 {
+        font-size: 2.5rem;
+        padding-left: 0;
+    }
+
+    .text-hero-section h2 {
+        font-size: 1.2rem;
+        padding-left: 0;
+    }
+
+
+    .text-hero-section button {
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .wrap-button {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+
+    /*-------------PROCEDIMENTOS-SECTION------------*/
+
+    #procedimentos-section {
+        max-width: 580px;
+    }
+
+    #procedimentos-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .procedimentos {
+        gap: 5rem;
+    }
+
+    .procedimentos img {
+        border-radius: 1rem;
+    }
+
+    .procedimento {
+        width: 27rem;
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+    }
+
+    .procedimento h2 {
+        font-size: 1.5rem;
+    }
+
+    .procedimento p {
+        font-size: 0.95rem;
+        padding-top: 1rem;
+    }
+
+    .text-procedimento {
+        padding: 2rem 1.9rem;
+    }
+
+    .wrap-img-procedimento img {
+        width: 27rem;
+        height: auto;
+    }
+
+    .procedimento-um, .procedimento-dois, .procedimento-tres {
+        margin: 0;
+    }
+
+    .procedimento-um img {
+        content: url("../img/procedimento-um-mobile.jpg");
+    }
+
+    .procedimento-dois img {
+        content: url("../img/procedimento-dois-mobile.jpg");
+    }
+
+    .procedimento-tres img {
+        content: url("../img/procedimento-tres-mobile.jpg");
+    }
+
+    .cta-procedimentos {
+        font-size: 1.8rem;
+    }
+
+    .cta-procedimentos button {
+        font-size: 1.2rem;
+    }
+    
+
+    /*-------------ABOUT-SECTION------------*/
+
+    #about-section h1 {
+        font-size: 1.7rem;
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+    }
+
+    .about-section {
+        padding: 4rem 0;
+        gap: 1.3rem;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+        max-width: 27rem;
+    }
+
+    .about-section img {
+        max-width: 18rem;
+        max-height: 18rem;
+        margin: 0;
+        margin-top: -8rem;
+    }
+
+    /*-------------AVALIAÇÃO-SECTION------------*/
+
+    .cards-avaliacoes {
+        gap: 2rem;
+        padding-top: 7rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 20rem;
+    }
+
+    /*-------------LOCATION-SECTION------------*/
+
+    #location-section {
+        max-width: 580px;
+        padding-top: 8rem;
+    }
+
+    .location-section {
+        gap: 4rem;
+    }
+
+    .mapa iframe {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .mapa p {
+        padding-top: 1.3rem;
+        font-size: 1.1rem;
+    }
+
+    .infos {
+        font-size: 1.2rem;
+        
+    }
+
+    button#btn-infos {
+        font-size: 1rem;
+    }   
+
+    .button-wpp, .button-insta {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+
+    .button-wpp img, .button-insta img {
+        max-width: 40%;
+    }
+    
+
+    .infos img {
+        max-width: 1.7rem;
+    }
+
+    .botoes-infos {
+        padding: 2rem 0;
+    }
+
+    /*-------------FOOTER------------*/
+
+    .wrap-footer {
+        padding: 4rem 1rem 1rem 4rem;
+        font-size: 1rem;
+    }
+
+    p#slogan {
+        font-size: 1.1rem;
+    }
+
+    p#copy {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*-------------HERO-SECTION------------*/
+    
+    .hero-section {
+        background-image: url("../img/banner-700px.jpg");
+        background-position: top;
+        background-size: cover;
+    }
+
+    #hero-section menu ul {
+        gap: 1rem;
+        font-size: 1.55rem;
+    }
+
+    .text-hero-section {
+        padding: 35rem 0 1.88rem 0;
+        max-width: 770px;
+        margin: 0 auto;
+        
+    }
+
+    .wrap-wrap-text-hero {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-hero-section p#identificacao img {
+        width: 5rem;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .text-hero-section p#cro {
+        font-size: 1.2rem;
+        padding-left: 0;
+        padding-top: 0.7rem;
+    }
+
+    .text-hero-section p#identificacao {
+        display: flex;
+        gap: 0.8rem;
+        padding-top: 1.8rem;
+    }
+
+    .text-hero-section h1 {
+        font-size: 2.7rem;
+        padding-left: 0;
+    }
+
+    .text-hero-section h2 {
+        font-size: 1.4rem;
+        padding-left: 0;
+    }
+
+
+    .text-hero-section button {
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .wrap-button {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+    
+
+    /*-------------PROCEDIMENTOS-SECTION------------*/
+
+    #procedimentos-section {
+        max-width: 770px;
+    }
+
+    #procedimentos-section h1 {
+        font-size: 2rem;
+    }
+
+    .procedimentos {
+        gap: 4rem;
+    }
+
+    .procedimento {
+        width: 40rem;
+        min-height: auto;
+    }
+
+    .procedimento h2 {
+        font-size: 1.8rem;
+    }
+
+    .procedimento p {
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .text-procedimento {
+        padding: 2rem 2rem;
+    }
+
+    .wrap-img-procedimento img {
+        width: 14rem;
+        height: auto;
+    }
+
+    .procedimento-um, .procedimento-dois, .procedimento-tres {
+        margin: 0;
+    }
+
+    .cta-procedimentos {
+        font-size: 2rem;
+    }
+
+    .cta-procedimentos button {
+        font-size: 1.2rem;
+    }
+    
+
+    /*-------------ABOUT-SECTION------------*/
+
+    #about-section h1 {
+        font-size: 2rem;
+        padding-top: 8rem;
+    }
+
+    .about-section {
+        padding: 4rem 0rem 4rem 2rem;
+        gap: 1rem;
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+        max-width: 27rem;
+    }
+
+    .about-section img {
+        max-width: 17rem;
+        max-height: 17rem;
+        margin: -4.5rem 0;
+    }
+
+    
+
+    /*-------------AVALIAÇÃO-SECTION------------*/
+
+    .cards-avaliacoes {
+        gap: 0.7rem;
+        padding-top: 9rem;
+    }
+
+    .card {
+        flex-basis: 12rem;
+        padding: 3rem 1.5rem 3rem 1.8rem;
+    }
+
+    .card h1 {
+        font-size: 1rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .card p#nome-avaliacao {
+        font-size: 1rem;
+    }
+    
+    
+
+    /*-------------LOCATION-SECTION------------*/
+
+    #location-section {
+        max-width: 770px;
+        padding-top: 8rem;
+    }
+
+    .location-section {
+        gap: 4rem;
+    }
+
+    .mapa iframe {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .mapa p {
+        padding-top: 1.3rem;
+        font-size: 1.1rem;
+    }
+
+    .infos {
+        font-size: 1.2rem;
+        
+    }
+
+    button#btn-infos {
+        font-size: 1rem;
+    }   
+
+    .button-wpp, .button-insta {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+
+    .button-wpp img, .button-insta img {
+        max-width: 40%;
+    }
+    
+
+    .infos img {
+        max-width: 1.7rem;
+    }
+
+    .botoes-infos {
+        padding: 2rem 0;
+    }
+
+    /*-------------FOOTER------------*/
+
+    .wrap-footer {
+        padding: 4rem 1rem 1rem 4rem;
+        font-size: 1rem;
+    }
+
+    p#slogan {
+        font-size: 1.3rem;
+    }
+
+    p#copy {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*-------------HERO-SECTION------------*/
+
+    #hero-section menu ul {
+        font-size: 1.5rem;
+        gap: 1.3rem;
+    }
+
+    .text-hero-section {
+        padding: 4rem 0 6.5rem 7rem;
+    }
+
+    .text-hero-section p#cro {
+        font-size: 1.3rem;
+    }
+    
+    .text-hero-section p#identificacao {
+        font-size: 1.4rem;
+    }
+
+    .text-hero-section p#identificacao img {
+        width: 5rem;
+        height: auto;
+    }
+
+    .text-hero-section h1 {
+        font-size: 2.3rem;
+    }
+
+    .text-hero-section h2 {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+
+    /*-------------PROCEDIMENTOS-SECTION------------*/
+
+    #procedimentos-section {
+        max-width: 1200px;
+    }
+
+    #procedimentos-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .procedimentos {
+        gap: 5.3rem;
+    }
+
+    .procedimento {
+        width: 55rem;
+        height: 10rem;
+    }
+
+    .procedimento h2 {
+        font-size: 2.2rem;
+    }
+
+    .procedimento p {
+        font-size: 1.2rem;
+        padding-top: 2rem;
+    }
+
+    .procedimento-um, .procedimento-dois, .procedimento-tres {
+        margin: 0;
+    }
+    
+    
+
+    /*-------------ABOUT-SECTION------------*/
+
+    .about-section {
+        padding: 5rem 0;
+    }
+
+    .about-section p {
+        font-size: 1.2rem;
+        max-width: 30rem;
+    }
+
+    .about-section img {
+        max-width: 22rem;
+        max-height: 22rem;
+        margin: -6rem 0;
+    }
+    
+
+    /*-------------AVALIAÇÃO-SECTION------------*/
+
+    .cards-avaliacoes {
+        gap: 1.5rem;
+    }
+
+    .card {
+        flex-basis: 12rem;
+        padding: 4rem 3rem 4rem 3rem;
+    }
+
+    .card h1 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+    .card p#nome-avaliacao {
+        font-size: 1.1rem;
+    }
+    
+    
+
+    /*-------------LOCATION-SECTION------------*/
+
+    #location-section {
+        max-width: 990px;
+    }
+
+    .location-section {
+        gap: 1.55rem;
+    }
+
+    .mapa iframe {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .mapa p {
+        padding-top: 1.3rem;
+        font-size: 1.1rem;
+    }
+
+    .infos {
+        font-size: 1.2rem;
+    }
+
+    button#btn-infos {
+        font-size: 1rem;
+    }   
+
+    .button-wpp, .button-insta {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+
+    .button-wpp img, .button-insta img {
+        max-width: 40%;
+    }
+    
+
+    .infos img {
+        max-width: 1.7rem;
+    }
+
+    .botoes-infos {
+        padding: 2rem 0;
+    }
+
+    /*-------------FOOTER------------*/
+
+    .wrap-footer {
+        padding: 4.44rem 0 1rem 4rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+    /*-------------HERO-SECTION------------*/
+
+    #hero-section menu ul {
+        font-size: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .text-hero-section {
+        padding: 2.06rem 0 5rem 6rem;
+        max-width: 1200px;
+    }
+
+    .text-hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-hero-section h2 {
+        font-size: 1.4rem;
+    }
+
+    /*-------------PROCEDIMENTOS-SECTION------------*/
+
+    #procedimentos-section {
+        max-width: 1200px;
+    }
+
+    .procedimentos {
+        gap: 6rem;
+    }
+
+    .procedimento {
+        width: 60rem;
+        height: 10rem;
+    }
+
+    .procedimento h2 {
+        font-size: 2.5rem;
+    }
+
+    .procedimento p {
+        font-size: 1.3rem;
+    }
+
+    .procedimento-um, .procedimento-dois, .procedimento-tres {
+        margin: 0;
+    }
+
+    /*-------------ABOUT-SECTION------------*/
+
+    .about-section p {
+        font-size: 1.3rem;
+        max-width: 40rem;
+    }
+
+    .about-section img {
+        max-width: 22rem;
+        max-height: 22rem;
+        margin: -7rem 0;
+    }
+
+    /*-------------AVALIAÇÃO-SECTION------------*/
+
+
+    .cards-avaliacoes {
+        gap: 2.5rem;
+    }
+
+    .card {
+        flex-basis: 14rem;
+    }
+
+    .card h1 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 1.1rem;
+    }
+
+    .card p#nome-avaliacao {
+        font-size: 1.2rem;
+    }
+
+    /*-------------LOCATION-SECTION------------*/
+
+    #location-section {
+        max-width: 1200px;
+    }
+
+    .location-section {
+        gap: 3rem;
+    }
+
+    .mapa iframe {
+        width: 31.25rem;
+        height: 21.88rem;
+    }
+
+    .infos {
+        font-size: 1.40rem;
+    }
+
+    button#btn-infos {
+        font-size: 1.4rem;
+    }   
+
+    .button-wpp, .button-insta {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .button-wpp img, .button-insta img {
+        max-width: 60%;
+    }
+
+    /*-------------FOOTER------------*/
+
+    .wrap-footer {
+        padding: 4.44rem 0 1rem 8rem;
+        font-size: 1.2rem;
+    }
+
+
+}
+
+
+
+@media (min-width: 1400px) and (max-width: 1700px) {
+    /*-------------HERO-SECTION------------*/
+    
+    .text-hero-section {
+        padding: 2.06rem 0 5rem 6rem;
+        max-width: 1200px;
+    }
+
+    .text-hero-section h1 {
+        font-size: 3rem;
+    }
+
+    .text-hero-section h2 {
+        font-size: 1.5rem;
+    }
+
+    /*-------------PROCEDIMENTOS-SECTION------------*/
+
+    #procedimentos-section {
+        max-width: 1200px;
+    }
+
+    .procedimento {
+        max-width: 68rem;
+        height: 10rem;
+    }
+
+    .procedimento h2 {
+        font-size: 2.5rem;
+    }
+
+    .procedimento p {
+        font-size: 1.3rem;
+    }
+
+    /*-------------ABOUT-SECTION------------*/
+
+    .about-section p {
+        font-size: 1.5rem;
+        max-width: 45rem;
+    }
+
+    .about-section img {
+        margin: -10rem 0;
+    }
+
+    /*-------------AVALIAÇÃO-SECTION------------*/
+
+    .cards-avaliacoes {
+        gap: 2rem;
+    }
+
+    .card {
+        flex-basis: 15rem;
+    }
+
+    .card h1 {
+        font-size: 1.4rem;
+    }
+
+    .card p {
+        font-size: 1.2rem;
+    }
+
+    .card p#nome-avaliacao {
+        font-size: 1.2rem;
+    }
+}

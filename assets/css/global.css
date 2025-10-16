@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--Timberwolf);
+}
+
+:root {
+    --Licorice: #211103 ;
+    --Timberwolf: #EADEDA ;
+    --Cinereous: #998888 ;
+    --Silver: #BFB8AD ;
+    --Dourado: #9A6C31 ;
+    --Branco: #FFFFFF ;
+}
+
+@font-face {
+    font-family: InriaSerif-Bold;
+    src: url("../fonts/InriaSerif-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: InriaSerif-Light;
+    src: url("../fonts/InriaSerif-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: InriaSerif-Regular;
+    src: url("../fonts/InriaSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: JuliusSansOne-Regular;
+    src: url("../fonts/JuliusSansOne-Regular.ttf") format("truetype");
+}
