@@ -37,7 +37,7 @@ O projeto inclui metatags essenciais para:
 
 🧾 Créditos
 
-Desenvolvido por: Thamiris Trentin
-Cliente: Dra. Eduarda Monteiro
-Ano: 2025
-Licença: Uso exclusivo para fins comerciais do cliente.
+- Desenvolvido por: Thamiris Trentin
+- Cliente: Dra. Eduarda Monteiro
+= Ano: 2025
+= Licença: Uso exclusivo para fins comerciais do cliente.
