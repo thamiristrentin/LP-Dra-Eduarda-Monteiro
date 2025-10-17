@@ -7,10 +7,38 @@
         background-size: cover;
     }
 
+    #hero-section header {
+        background-color: rgba(240, 248, 255, 0.26);
+        min-width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 1.6rem;
+    }
+
+    menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap-menu {
+        max-width: min-content;
+        margin: 0 auto;
+    }
+
+    .faixa-menu {
+        margin: -0.5rem auto;
+        height: 0.09rem;
+    }
+
     #hero-section menu ul {
         gap: 1rem;
         font-size: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 0;
     }
+
+    
 
     .text-hero-section {
         padding: 35rem 0 1.88rem 0;
@@ -258,10 +286,42 @@
         background-size: cover;
     }
 
+    #hero-section header {
+        background-color: rgba(240, 248, 255, 0.26);
+        max-width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 1.6rem;
+    }
+
+    menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap-menu {
+        max-width: min-content;
+        margin: 0 auto;
+    }
+
+    .faixa-menu {
+        margin: -0.5rem auto;
+        height: 0.09rem;
+        max-width: auto;
+    }
+
+
     #hero-section menu ul {
         gap: 1rem;
         font-size: 1.3rem;
+        padding-bottom: 1rem;
+        padding-top: 0;
+        
     }
+
+
+
 
     .text-hero-section {
         padding: 35rem 0 1.88rem 0;
@@ -506,9 +566,21 @@
         background-size: cover;
     }
 
+    #hero-section header {
+        background-color: rgba(240, 248, 255, 0.26);
+        min-width: 100%;
+        padding-top: 3rem;
+        padding-bottom: 1.6rem;
+    }
+
     #hero-section menu ul {
         gap: 1rem;
         font-size: 1.55rem;
+    }
+
+    .wrap-menu {
+        max-width: min-content;
+        margin: 0 auto;
     }
 
     .text-hero-section {
@@ -737,9 +809,35 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /*-------------HERO-SECTION------------*/
 
+    #hero-section header {
+        background-color: rgba(240, 248, 255, 0.26);
+        min-width: 100%;
+        padding-top: 1.7rem;
+        padding-bottom: 1.6rem;
+    }
+    
+    menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap-menu {
+        max-width: min-content;
+        margin: 0 auto;
+    }
+
+    .faixa-menu {
+        margin: -0.5rem auto;
+        height: 0.1rem;
+    }
+    
     #hero-section menu ul {
         font-size: 1.5rem;
         gap: 1.3rem;
+        padding-bottom: 1rem;
+        padding-top: 0;
     }
 
     .text-hero-section {
